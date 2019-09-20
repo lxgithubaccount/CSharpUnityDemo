@@ -7,8 +7,8 @@
     <ProjectGuid>{D895B8FE-3EB4-457C-93AE-0E7DB0F1C05D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FirstBL</RootNamespace>
-    <AssemblyName>FirstBL</AssemblyName>
+    <RootNamespace>SqlServerDAL</RootNamespace>
+    <AssemblyName>SqlServerDAL</AssemblyName>
     <DefaultLanguage>zh-CN</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.17763.0</TargetPlatformVersion>
@@ -121,7 +121,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BaseDAL.cs" />
+    <Compile Include="CompanyDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDAL.cs" />
     <EmbeddedResource Include="Properties\FirstBL.rd.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -130,9 +132,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CSharpUnityBaseBL\BaseDAL.csproj">
+    <ProjectReference Include="..\CSharpUnityBaseBL\DataAccessLibInterface.csproj">
       <Project>{f9065fe4-c31b-4e7b-93d5-6a1b10352589}</Project>
-      <Name>BaseDAL</Name>
+      <Name>DataAccessLibInterface</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

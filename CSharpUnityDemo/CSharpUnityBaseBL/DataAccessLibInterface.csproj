@@ -7,8 +7,8 @@
     <ProjectGuid>{F9065FE4-C31B-4E7B-93D5-6A1B10352589}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharpUnityBaseBL</RootNamespace>
-    <AssemblyName>CSharpUnityBaseBL</AssemblyName>
+    <RootNamespace>DataAccessLibInterface</RootNamespace>
+    <AssemblyName>DataAccessLibInterface</AssemblyName>
     <DefaultLanguage>zh-CN</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.17763.0</TargetPlatformVersion>

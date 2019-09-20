@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryProcess", "EntryProcess\EntryProcess.csproj", "{10ED0A93-875E-4A3B-955E-30B898F0D468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDAL", "CSharpUnityBaseBL\BaseDAL.csproj", "{F9065FE4-C31B-4E7B-93D5-6A1B10352589}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibInterface", "CSharpUnityBaseBL\DataAccessLibInterface.csproj", "{F9065FE4-C31B-4E7B-93D5-6A1B10352589}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerDAL", "FirstBL\SqlServerDAL.csproj", "{D895B8FE-3EB4-457C-93AE-0E7DB0F1C05D}"
 EndProject

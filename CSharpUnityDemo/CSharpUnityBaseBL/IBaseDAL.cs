@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 
-namespace CSharpUnityBaseBL
+namespace DataAccessLibInterface
 {
     /// <summary>
     /// 数据处理的基础接口

@@ -1,4 +1,4 @@
-﻿using CSharpUnityBaseBL;
+﻿using DataAccessLibInterface;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SecondBL
+namespace MySqlDAL
 {
     public class BaseDAL : IBaseDAL
     {
@@ -18,7 +18,7 @@ namespace SecondBL
         /// <returns></returns>
         public int delete(string sqlString, IDbTransaction transaction)
         {
-            throw new NotImplementedException();
+            throw new Exception("使用的是MySqlDAL的delete");
         }
 
         /// <summary>
@@ -29,7 +29,7 @@ namespace SecondBL
         /// <returns></returns>
         public int insert(string sqlString, IDbTransaction transaction)
         {
-            throw new NotImplementedException();
+            throw new Exception("使用的是MySqlDAL的insert");
         }
 
         /// <summary>
@@ -39,7 +39,7 @@ namespace SecondBL
         /// <returns></returns>
         public DataTable select(string sqlString)
         {
-            throw new NotImplementedException();
+            throw new Exception("使用的是MySqlDAL的select");
         }
 
         /// <summary>
@@ -50,7 +50,7 @@ namespace SecondBL
         /// <returns></returns>
         public int update(string sqlString, IDbTransaction transaction)
         {
-            throw new NotImplementedException();
+            throw new Exception("使用的是MySqlDAL的update");
         }
     }
 }
